@@ -9,9 +9,11 @@ export const InputBox = () => {
   };
 
   const onClickAddText = () => {
+    if (text === "") return;
     setItems([...items, text]);
     setText("");
   };
+
   return (
     <div>
       <input
@@ -22,8 +24,10 @@ export const InputBox = () => {
       <p>入力されたもの</p>
       <p>{text}</p>
       <button onClick={onClickAddText}>追加</button>
-      {items.map((value) => (
-        <p key={value}>{value}</p>
+      {items.map((value, index) => (
+        <p key={index}>
+          [{index}]:{value} "{value.slice(-1)}"
+        </p>
       ))}
     </div>
   );
