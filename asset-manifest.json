@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/torihazi/react_trash_1/static/css/main.e6c13ad2.css",
+    "main.js": "/torihazi/react_trash_1/static/js/main.9660c7be.js",
+    "static/js/453.256af544.chunk.js": "/torihazi/react_trash_1/static/js/453.256af544.chunk.js",
+    "index.html": "/torihazi/react_trash_1/index.html",
+    "main.e6c13ad2.css.map": "/torihazi/react_trash_1/static/css/main.e6c13ad2.css.map",
+    "main.9660c7be.js.map": "/torihazi/react_trash_1/static/js/main.9660c7be.js.map",
+    "453.256af544.chunk.js.map": "/torihazi/react_trash_1/static/js/453.256af544.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.9660c7be.js"
+  ]
+}
